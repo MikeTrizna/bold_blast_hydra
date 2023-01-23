@@ -1,8 +1,7 @@
 # BOLD BLAST on Hydra walkthrough
 
 - Web BLAST and BOLD ID Engine
-    - Web BLAST Screenshot (took 5 minutes) ![](https://i.imgur.com/hAkDMNU.png)
-    - BOLD ID Engine Screenshot (took 15 seconds)![](https://i.imgur.com/yKS1s7w.png)
+    [Screenshots](web_blast/README.md)
     - **Pros:** no setup necessary
     - **Cons:** not very scalable beyond a handful of sequences
 - BLAST against NCBI db on Hydra

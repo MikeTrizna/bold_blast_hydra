@@ -1,0 +1,4 @@
+Loading bioinformatics/blast/2.10.1
+  Loading requirement: gcc/7.3.0
++ Wed Jan 25 11:47:29 EST 2023 job blast_ncbi_coi started in sThC.q with jobID=9825877 on compute-65-30
+= Wed Jan 25 11:47:51 EST 2023 job blast_ncbi_coi done

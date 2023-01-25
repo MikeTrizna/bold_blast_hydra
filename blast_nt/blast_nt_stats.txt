@@ -1,0 +1,22 @@
+qname                = sThC.q
+hostname             = compute-65-30
+owner                = triznam
+job_name             = blast_nt
+job_number           = 9825889
+task_number          = -1
+submission_time      = Wed Jan 25 12:06:17.00 EST 2023
+start_time           = Wed Jan 25 12:06:29.00 EST 2023
+end_time             = Wed Jan 25 12:09:24.00 EST 2023
+wait_time            = 00:12.00
+wallclock            = 02:55.05
+granted_pe           = mthread
+slots                = 30
+failed               = 0
+exit_status          = 0
+cpu                  = 02:51.17
+eff                  =   3.3 %
+avg_mem              = 98.46 GB
+maxvmem              = 191.0 GB
+mem_res              = 240.0 GB
+io                   = 0.003 GB
+----------

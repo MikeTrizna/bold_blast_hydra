@@ -1,0 +1,22 @@
+qname                = sThC.q
+hostname             = compute-65-30
+owner                = triznam
+job_name             = blast_ncbi_coi
+job_number           = 9825877
+task_number          = -1
+submission_time      = Wed Jan 25 11:47:25.00 EST 2023
+start_time           = Wed Jan 25 11:47:29.00 EST 2023
+end_time             = Wed Jan 25 11:47:51.00 EST 2023
+wait_time            = 00:04.00
+wallclock            = 00:22.48
+granted_pe           = mthread
+slots                = 4
+failed               = 0
+exit_status          = 0
+cpu                  = 00:18.61
+eff                  =  20.7 %
+avg_mem              = 5.373 GB
+maxvmem              = 8.595 GB
+mem_res              = 32.00 GB
+io                   = 0.003 GB
+----------

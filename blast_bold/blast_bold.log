@@ -1,0 +1,8 @@
+Loading bioinformatics/blast/2.10.1
+  Loading requirement: gcc/7.3.0
++ Wed Jan 25 11:32:29 EST 2023 job blast_bold started in sThC.q with jobID=9825533 on compute-65-13
+= Wed Jan 25 11:32:55 EST 2023 job blast_bold done
+Loading bioinformatics/blast/2.10.1
+  Loading requirement: gcc/7.3.0
++ Wed Jan 25 11:35:00 EST 2023 job blast_bold started in sThC.q with jobID=9825875 on compute-43-19
+= Wed Jan 25 11:35:39 EST 2023 job blast_bold done

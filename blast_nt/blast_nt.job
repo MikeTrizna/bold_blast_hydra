@@ -1,0 +1,26 @@
+# /bin/sh
+# ----------------Parameters---------------------- #
+#$ -S /bin/sh
+#$ -pe mthread 30
+#$ -q sThC.q
+#$ -l mres=240G,h_data=8G,h_vmem=8G
+#$ -cwd
+#$ -j y
+#$ -N blast_nt
+#$ -o blast_nt.log
+#$ -m bea
+#
+# ----------------Modules------------------------- #
+module load bioinformatics/blast
+#
+# ----------------Your Commands------------------- #
+#
+echo + `date` job $JOB_NAME started in $QUEUE with jobID=$JOB_ID on $HOSTNAME
+#
+blastn -db nt \
+       -query random_barcode.fasta \
+       -max_target_seqs 20 \
+       -outfmt "6 qseqid sseqid staxid ssciname pident length qcovs evalue" \
+       -out blast_nt.tsv
+#
+echo = `date` job $JOB_NAME done
